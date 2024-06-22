@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Merriweather", serif;
+}
+
+body {
+    background: url(assets/img/Rectangle\ 3.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.p1 {
+    color: black;
+    list-style-type: none;
+    position: absolute;
+    width: 29.61px;
+    height: 12.87px;
+    left: 34.57px;
+    right: -37px;
+    top: 5.34px;
+    bottom: -34.21px;  
+    text-decoration: none; 
+}
+
+
+.arrow {
+    color: black;
+    position: absolute;
+width: 12.87px;
+height: 0;
+left: 5.68px;
+top: 4.53px;
+}
+
+.main {
+    background-color: white;
+    width: 1681px;
+    height: 869px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    width: 345px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+}
+
+.block {
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+.block1 {
+    margin-top: 40px;
+}
+.block2 {
+    margin-top: 40px;
+}

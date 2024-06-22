@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Inter:wght@100..900&family=Jomolhari&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;         
+    font-family: "Jomolhari", serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Gowun Batang", serif;
+}
+
+.logo {
+position: absolute;
+width: 128px;
+height: 120px;
+left: 88px;
+right: 1085px;
+top: 63px;  
+bottom: -63px;
+}
+
+body {
+    background-image: url(assets/img/Ellipse.svg);
+    background-repeat: no-repeat;
+    background-position: 1000px 210px;
+
+}
+
+.main h3 {
+color: rgb(0, 0, 0);
+font-family: Jomolhari;
+font-size: 35.91px;
+font-weight: 400;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+
+position: absolute;
+width: 303px;
+height: 58px;
+left: 82px;
+right: 1535px;
+top: 312px;
+bottom: 710px;
+}
+
+.p1 {
+position: absolute;
+width: 72.83px;
+height: 19px;
+left: 569px;
+right: 659.17px;
+top: 111px;
+bottom: -10px;
+
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.p2 {
+position: absolute;
+width: 109px;
+height: 24px;
+left: 798px;
+right: 394px;
+top: 111px;
+bottom: -15px;
+
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.p3 {
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 1063px;
+    right: 147px;
+    top: 111px;
+    bottom: -15px;
+
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.p4 {
+    position: absolute;
+    width: 79px;
+    height: 24px;
+    left: 1310px;
+    right: -88px;
+    top: 111px;
+    bottom: -15px;
+
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.main h1 {
+    position: absolute;
+    width: 877.57px;
+    height: 116px;
+    left: 131px;
+    right: 911.43px;
+    top: 368px;
+    bottom: 596px;
+    font-family: Inter;
+} 
+
+.pizza1 {
+position: absolute;
+width: 772.66px;
+height: 772.66px;
+left: 1034.05px;
+right: 728.12px;
+top: 235.09px;
+bottom: 1534.28px;
+transform: rotate(-1.55deg);
+
+box-shadow: 17832871273px black;
+background: url(02);
+}
+
+
+main, h1 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+main, h5{
+position: absolute;
+width: 500px;
+height: 58px;
+left: 82px;
+right: 1338px;
+top: 530px;
+bottom: 492px;
+}
+
+main, li {
+    list-style-type: none;
+}
+
+.pizza2 {
+position: absolute;
+width: 137px;
+height: 137px;
+left: -750.11px;
+    right: 396.52px;
+    top: 672px;
+    bottom: -623px;
+transform: rotate(14.52deg);
+
+}
+
+.pizzaq {
+position: absolute;
+width: 160px;
+height: 160px;
+left: 700px;
+top: 669px;
+bottom: -623px;
+transform: rotate(14.52deg);
+transition: all 0.15ms;
+}
+
+.pizza3 {
+position: absolute;
+width: 137px;
+height: 137px;
+left: -1365.63px;
+top: 670px;
+bottom: -612px;
+transform: rotate(14.52deg);
+}
+
+.pizza4 {
+position: absolute;
+width: 137px;
+height: 137px;
+right: -469px;
+top: 670px;
+bottom: -612px;
+transform: rotate(14.52deg);
+
+}
+.menu {
+         display: flex;
+        justify-content: space-between;
+
+    }
+    .menu img {
+        transition: transform 0.3s ease;
+    }
+    .menu:hover .pizzaq {
+        transform: scale(0.5);
+    }
+
+
+.zoom {
+        position: relative;
+        display: inline-block;
+    }
+    .zoom img {
+        transition: transform 0.3s ease;
+    }
+    .zoom:hover img {
+        transform: scale(2.5);
+    }
+.zoom2 {
+        position: relative;
+        display: inline-block;
+    }
+    .zoom2 img {
+        transition: transform 0.3s ease;
+    }
+    .zoom2:hover img {
+        transform: scale(2.5);
+    }
+
+.zoom3 {
+        position: relative;
+        display: inline-block;
+    }
+    .zoom3 img {
+        transition: transform 0.3s ease;
+    }
+    .zoom3:hover img {
+        transform: scale(2.5);
+    }
+
+.pol {
+    position: relative;
+}
+.poloska {
+    display: none;
+    position: absolute;
+    right: -415px;
+    top: 900px;
+    box-shadow: 0px 0px 15px 1px rgb(136, 29, 29);
+    }
+    .pol:hover .poloska{
+        display: block;
+    }
+
+    .pol1 {
+        position: relative;
+    }
+    .poloska1 {
+        display: none;
+        position: absolute;
+        right: 1280px;
+        top: 900px;
+        box-shadow: 0px 0px 15px 1px rgb(136, 29, 29);
+        }
+        .pol1:hover .poloska1{
+            display: block;
+        }
+
+        .pol3 {
+            position: relative;
+        }
+        .poloska3 {
+            display: none;
+            position: absolute;
+            right: 665px;
+            top: 900px;
+            box-shadow: 0px 0px 15px 1px rgb(136, 29, 29);
+            }
+            .pol3:hover .poloska3{
+                display: block;
+            }

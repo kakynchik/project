@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-image: url(assets/img/Frame\ 5.png);
+}
+
+.p1 {
+    color: black;
+    list-style-type: none;
+    position: absolute;
+    width: 29.61px;
+    height: 12.87px;
+    left: 34.57px;
+    right: -37px;
+    top: 5.34px;
+    bottom: -34.21px;  
+    text-decoration: none; 
+}
+
+
+.arrow {
+    color: black;
+    position: absolute;
+width: 12.87px;
+height: 0;
+left: 5.68px;
+top: 4.53px;
+}
+
+
+.hr {
+    position: absolute;
+    width: 690px;
+    height: 0;
+    left: 30px;
+    top: 81.5px;
+}
+
+.hr1 {
+    position: absolute;
+    width: 690px;
+    height: 0;
+    left: 1145px;
+    top: 82.63px;
+}
+
+.pol {
+    display: flex;
+}
+
+h1 {
+    position: absolute;
+width: 433px;
+height: 64px;
+left: 743px;
+right: 744px;
+top: 47px;
+bottom: 969px;
+}
+
+.img1{
+    position: absolute;
+width: 716.63px;
+height: 371px;
+left: 221px;
+right: 539.38px;
+top: 135px;
+bottom: -135px;
+}
+
+.img2 { 
+    position: absolute;
+width: 716.63px;
+height: 371px;
+left: 981.38px;
+right: -221px;
+top: 135px;
+bottom: -135px;
+}
